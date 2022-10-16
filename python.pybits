@@ -1,0 +1,24 @@
+# IDENTITY OPERATORS
+a = [40,50]
+b = [40,50]
+c = a
+
+print (c is a)
+print(b is a)
+print(b is not a)
+
+
+#MEMBERSHIP OPERATORS
+x = [10,40,60]
+print(10 in x)
+print(30 in x)
+
+
+#BITWISE OPERATORS
+e = 8
+f = 5
+print(e|f)
+print(e&f)
+print(e^f)
+print(e<<f)
+print(e>>f)
